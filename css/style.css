@@ -1,0 +1,20 @@
+.basket_wrapper {
+  position: relative;
+
+  svg {
+    width: 40px;
+  }
+
+  .basket_counter {
+    position: absolute;
+    padding: 0 8px;
+    background-color: red;
+    border-radius: 50%;
+    top: -10px;
+    right: -10px;
+  }
+
+  .basket_counter.shown {
+    opacity: 1;
+  }
+}
